@@ -1,25 +1,25 @@
 class Tofu < Formula
   desc "A terminal-first webhook relay CLI for local development."
   homepage "https://trytofu.dev"
-  version "0.1.0"
+  version "0.1.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/trytofu/tofu-cli/releases/download/v0.1.0/tofu-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "6dcd0058e2863c81c7b2e2fdcc12ecc30147dfe4e9f654b61e625e2aa2bd80b6"
+      url "https://github.com/trytofu/tofu-cli/releases/download/v0.1.1/tofu-cli-aarch64-apple-darwin.tar.xz"
+      sha256 "5fd8b14715acc0bc688832931fcc411ed966b5e071f67fd2adb5519181ffde0a"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/trytofu/tofu-cli/releases/download/v0.1.0/tofu-cli-x86_64-apple-darwin.tar.xz"
-      sha256 "371224c274be8ebd29ff512e89b3fad32ce0784647298bdcb89367148821a6eb"
+      url "https://github.com/trytofu/tofu-cli/releases/download/v0.1.1/tofu-cli-x86_64-apple-darwin.tar.xz"
+      sha256 "e5b89912a2ff32a6fe5826b61178f75b470bd7a9a44c41c29bc31f3590b56402"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/trytofu/tofu-cli/releases/download/v0.1.0/tofu-cli-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "5a2af67e531571b762dbcac51bafaac97dff287798d50b244dd4b973d25bd8af"
+      url "https://github.com/trytofu/tofu-cli/releases/download/v0.1.1/tofu-cli-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "1c4b773500456ea89f644642c1c1f3b05ac1074739f5364967ee99317448078b"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/trytofu/tofu-cli/releases/download/v0.1.0/tofu-cli-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "7ad4f53b894339fb49303550cdade4d5d48ef134bec212c4d242c3a6edef9c7a"
+      url "https://github.com/trytofu/tofu-cli/releases/download/v0.1.1/tofu-cli-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "316872d726b0b749a95ed601677eb11c36e90d174f33e9eec13afd5ec91a95c4"
     end
   end
   license "MIT"
